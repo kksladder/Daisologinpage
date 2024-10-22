@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>회원가입</title>
+        <hr />
+    </head>
+    <body>
+        <h1>회원가입</h1>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>회원가입</legend>
+                <label for="id">아이디</label>
+                <input
+                    type="text"
+                    id="id"
+                    title="아이디"
+                    placeholder="아이디를 입력해주세요"
+                    maxlength="16"
+                    required
+                    autocomplete="on"
+                />
+                <hr />
+                <label for="비밀번호">비밀번호</label>
+                <input type="password" id="pw" name="pw" required placeholder="비밀번호를 입력해주세요" />
+                <hr />
+                <label for="비밀번호">비밀번호 확인</label>
+                <input type="password" id="pw" name="pw" required placeholder="비밀번호를 한번더 입력해주세요" />
+                <hr />
+                <label for="이름">이름</label>
+                <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요" />
+                <hr />
+                <label for="이메일">이메일</label>
+                <input type="text" id="email" name="email" required placeholder="예:daiso1992" />
+                <hr />
+                <label for="휴대폰">휴대폰</label>
+                <input type="phone" id="mobile" name="mobile" required placeholder="숫자만 입력해주세요" />
+                <hr />
+                주소
+                <hr />
+                <label for="성별">성별</label>
+
+                <input type="radio" name="gender" id="m" />
+                <label for="m">남자</label>
+                <input type="radio" name="gender" id="w" />
+                <label for="w">여자</label>
+                <input type="radio" name="gender" id="n" />
+                <label for="n">선택안함</label>
+                <hr />
+                생년월일
+                <hr />
+                <label for="추가입력">추가입력 사항</label>
+                <input type="radio" name="추천인" id="m" />
+                <label for="m">친구초대 추천인 아이디</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
