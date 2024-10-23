@@ -22,69 +22,97 @@
                     autocomplete="on"
                 />
                 <hr />
-                <label for="비밀번호">비밀번호</label>
+                <div class="password"><label for="비밀번호">비밀번호</label></div>
                 <input type="password" id="pw" name="pw" required placeholder="비밀번호를 입력해주세요" />
                 <hr />
-                <label for="비밀번호">비밀번호 확인</label>
+                <div class="pwcheck">
+                    <label for="비밀번호">비밀번호 확인</label>
+                </div>
                 <input type="password" id="pw" name="pw" required placeholder="비밀번호를 한번더 입력해주세요" />
                 <hr />
-                <label for="이름">이름</label>
+                <div class="name"><label for="이름">이름</label></div>
                 <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요" />
                 <hr />
-                <label for="이메일">이메일</label>
+                <div class="email"><label for="이메일">이메일</label></div>
                 <input type="text" id="email" name="email" required placeholder="예:daiso1992" />
                 <hr />
-                <label for="휴대폰">휴대폰</label>
+                <div class="mobile"><label for="휴대폰">휴대폰</label></div>
                 <input type="phone" id="mobile" name="mobile" required placeholder="숫자만 입력해주세요" />
                 <hr />
                 주소
-                <button class="addres" type="button">주소 검색</button>
+                <div class="address">
+                    <button class="address" type="button">주소 검색</button>
+                </div>
                 <hr />
-                <label for="성별">성별</label>
 
-                <input type="radio" name="gender" id="m" />
-                <label for="m">남자</label>
-                <input type="radio" name="gender" id="w" />
-                <label for="w">여자</label>
-                <input type="radio" name="gender" id="n" />
-                <label for="n">선택안함</label>
+                <div class="gender">
+                    <label for="성별">성별</label>
+
+                    <input type="radio" name="gender" id="m" />
+                    <label for="m">남자</label>
+                    <input type="radio" name="gender" id="w" />
+                    <label for="w">여자</label>
+                    <input type="radio" name="gender" id="n" />
+                    <label for="n">선택안함</label>
+                </div>
                 <hr />
-                생년월일
-                <label for="birthdate"></label>
-                <input type="text" id="birthdate" placeholder="YYYY DD MM" maxlength="10" oninput="FormData" required />
+                <div class="birthdate">
+                    생년월일
+                    <label for="birthdate"></label>
+                    <input
+                        type="text"
+                        id="birthdate"
+                        placeholder="YYYY DD MM"
+                        maxlength="10"
+                        oninput="FormData"
+                        required
+                    />
+                </div>
 
                 <hr />
-                <label for="추가입력">추가입력 사항</label>
-                <input type="radio" name="추천인" id="m" />
-                <label for="m">친구초대 추천인 아이디</label>
+
+                <div class="friend">
+                    <label for="추가입력">추가입력 사항</label>
+                    <input type="radio" name="추천인" id="m" />
+                    <label for="m">친구초대 추천인 아이디</label>
+                </div>
                 <hr />
-                이용약관동의 <label for="동의"></label>
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의"> <span>전체 동의합니다.</span></label>
-                <br />
-                <h5>선택항목에 동의하지 않은 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</h5>
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의" required><span>이용약관 동의(필수)</span></label>
-                <br />
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의" required><span>개인정보 수집 이용동의(필수)</span></label>
-                <br />
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의"><span>개인정보 수집 이용동의(선택)</span></label>
-                <br />
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의"><span>무료배송, 할인쿠폰 등 혜택/정보 수신동의(선택)</span></label>
-                <br />
-                <input type="radio" name="sms" id="sms" />
-                <label for="sms"><span>SMS</span></label>
-                <input type="radio" name="email" id="email" />
-                <label for="email"><span>이메일</span></label>
-                <br />
-                <input type="radio" name="동의" id="all-agree" />
-                <label for="radio" name="동의" required><span>본인은 만 14세 이상입니다.(필수)</span></label>
-                <br />
-                <br />
-                <button class="button" type="summit">가입하기</button>
+
+                <div class="agree">
+                    이용약관동의 <label for="동의"></label>
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의"> <span>전체 동의합니다.</span></label>
+
+                    <h5>선택항목에 동의하지 않은 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</h5>
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의" required
+                        ><span>이용약관 동의(필수)</span><a href="#">약관보기</a></label
+                    >
+                    <br />
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의" required
+                        ><span>개인정보 수집 이용동의(필수)</span><a href="#">약관보기</a></label
+                    >
+                    <br />
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의"
+                        ><span>개인정보 수집 이용동의(선택)</span><a href="#">약관보기</a></label
+                    >
+                    <br />
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의"><span>무료배송, 할인쿠폰 등 혜택/정보 수신동의(선택)</span></label>
+                    <br />
+                    <input type="radio" name="sms" id="sms" />
+                    <label for="sms"><span>SMS</span></label>
+                    <input type="radio" name="email" id="email" />
+                    <label for="email"><span>이메일</span></label>
+                    <br />
+                    <input type="radio" name="동의" id="all-agree" />
+                    <label for="radio" name="동의" required><span>본인은 만 14세 이상입니다.(필수)</span></label>
+                    <br />
+                    <br />
+                    <button class="button" type="summit">가입하기</button>
+                </div>
             </fieldset>
         </form>
     </body>
