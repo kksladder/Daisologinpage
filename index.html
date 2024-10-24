@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div id="signup">
+        <div id="wrap"></div>
+        <div class="signup">
             <h1>회원가입</h1>
             <form action="/action_page.php">
                 <fieldset>
@@ -100,36 +101,36 @@
                     <!-- 이용약관 동의 -->
                     <div class="agree">
                         이용약관동의 <label for="동의"></label>
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의"> <span>전체 동의합니다.</span></label>
 
                         <h5>선택항목에 동의하지 않은 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</h5>
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의" required
                             ><span>이용약관 동의(필수)</span><a href="#">약관보기</a></label
                         >
                         <br />
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의" required
                             ><span>개인정보 수집 이용동의(필수)</span><a href="#">약관보기</a></label
                         >
                         <br />
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의"
                             ><span>개인정보 수집 이용동의(선택)</span><a href="#">약관보기</a></label
                         >
                         <br />
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의"
                             ><span>무료배송, 할인쿠폰 등 혜택/정보 수신동의(선택)</span></label
                         >
                         <br />
-                        <input type="radio" name="sms" id="sms" />
+                        <input type="checkbox" name="sms" id="sms" />
                         <label for="sms"><span>SMS</span></label>
-                        <input type="radio" name="email" id="email" />
+                        <input type="checkbox" name="email" id="email" />
                         <label for="email"><span>이메일</span></label>
                         <br />
-                        <input type="radio" name="동의" id="all-agree" />
+                        <input type="checkbox" name="동의" id="all-agree" />
                         <label for="radio" name="동의" required><span>본인은 만 14세 이상입니다.(필수)</span></label>
                         <br />
                         <br />
