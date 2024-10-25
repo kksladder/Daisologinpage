@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.005" height="18.346" viewBox="0 0 75.005 18.346">
+  <g id="logo" transform="translate(-179.831 -18.215)">
+    <path id="Vector" d="M13.343,5.058h9.7V8.132H0V5.058H9.7V0h3.642Z" transform="translate(231.791 28.403)" fill="#d70011"/>
+    <path id="Vector-2" data-name="Vector" d="M12.258,7.94a4.34,4.34,0,1,0-4.345,4.346A4.361,4.361,0,0,0,12.258,7.94Zm3.575,0A7.917,7.917,0,1,1,7.913,0,7.948,7.948,0,0,1,15.834,7.94Z" transform="translate(206.489 19.643)" fill="#d70011"/>
+    <path id="Vector-3" data-name="Vector" d="M3.643,17.953H0V0H3.643Z" transform="translate(224.975 18.608)" fill="#d70011"/>
+    <path id="Vector-4" data-name="Vector" d="M11.359,4.735,2.6,12.563,0,9.985,11.359,0,22.513,9.985h0l-2.4,2.576Z" transform="translate(231.954 18.215)" fill="#d70011"/>
+    <path id="Vector-5" data-name="Vector" d="M13.965,0V3.4H3.613V9.334c0,2.359.83,3.527,3.29,3.659h7.062v3.4H6.9C2.266,16.393,0,13.778,0,9.4V0H13.965" transform="translate(179.831 19.387)" fill="#d70011"/>
+    <path id="Vector-6" data-name="Vector" d="M3.641,6.645H7.012v3.493H3.641v7.815H0V0H3.641Z" transform="translate(196.923 18.608)" fill="#d70011"/>
+  </g>
+</svg>

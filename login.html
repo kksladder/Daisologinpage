@@ -4,16 +4,17 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>로그인 화면</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./login2.css" />
+        <!-- <link rel="stylesheet" href="styles.css" /> -->
     </head>
     <body>
         <h2>온라인 국민가게</h2>
-        <h2>다이소 로고</h2>
+        <div class="logo"><img src="../../../김기섭2/footer/footer/logo_daiso.9dda2d0.svg" alt="" /></div>
         <!-- 아이디 -->
 
         <legend>
-            <div class="id">
-                <label for="아이디"></label>
+            <div class="form-signup">
+                <label for="id"></label>
                 <input
                     type="text"
                     name="id"
@@ -23,20 +24,20 @@
                     autocomplete="on"
                     required
                 />
-            </div>
 
-            <!-- 비밀번호 -->
-            <div class="pw">
-                <label for="비밀번호"></label>
-                <input
-                    type="password"
-                    id="password"
-                    name="pw"
-                    placeholder="비밀번호를 입력해주세요"
-                    maxlength="20"
-                    autocomplete="on"
-                    required
-                />
+                <!-- 비밀번호 -->
+                
+                    <label for="password"></label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="pw"
+                        placeholder="비밀번호를 입력해주세요"
+                        maxlength="20"
+                        autocomplete="on"
+                        required
+                    />
+                </div>
             </div>
             <div class="autologin">
                 <label for="autologin"></label>
@@ -50,7 +51,7 @@
 
             <!-- 로그인 버튼 -->
             <div class="button">
-                <button><a href="로그인">로그인</a></button>
+                <button><a href="#">로그인</a></button>
             </div>
 
             <!-- 아이디찾기 -->
