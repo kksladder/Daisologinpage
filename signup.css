@@ -16,26 +16,6 @@ body {
     padding: 20px;
     margin: 0;
 }
-/* .id,
-.password,
-.pwcheck,
-.name,
-.email,
-.mobile,
-.birthdate,
-.address,
-.btn-address,
-.friend,
-.gender,
-.agree {
-    display: flex;
-    max-width: 100%px;
-    width: 95%;
-    margin: 20px;
-    align-items: center;
-    font-size: large;
-    justify-content: space-between;
-} */
 
 .signup {
     max-width: 600px;
