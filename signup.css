@@ -32,10 +32,13 @@ body {
 h1 {
     margin-top: 0px;
     padding-top: 30px;
-    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     padding-bottom: 50px;
     text-align: center;
     color: black;
+}
+.id {
+    margin-top: 20px;
 }
 
 .form-signup > fieldset > div {
@@ -109,7 +112,7 @@ h1 {
     align-items: center;
     width: 333px;
     height: 44px;
-    margin: 100px auto;
+    margin: 40px auto;
     color: rgb(255, 255, 255);
     background: #d22929;
     font-size: 15px;
