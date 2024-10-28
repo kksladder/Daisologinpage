@@ -7,35 +7,37 @@
         <link rel="stylesheet" href="./daisologin.css" />
     </head>
     <body>
-        <div class="content">
-            <span class="title">온라인 국민가게</span>
+        <div id="login">
+            <div class="content">
+                <span class="title">온라인 국민가게</span>
 
-            <div>
-                <h1 class="logo">
-                    <span class="blind"></span>
-                </h1>
+                <div>
+                    <h1 class="logo">
+                        <span class="blind"></span>
+                    </h1>
+                </div>
             </div>
 
-        </div>
+            <div class="member-wrap">
+                <div class="login">
+                    <form action="/action_page.php" class="form-login"></form>
+                    <input type="text" autocomplete="off" maxlength="12" placeholder="아이디를 입력해주세요" />
+                </div>
+            </div>
 
-
-        <div class="member-wrap">
             <div class="login">
-                <form action="/action_page.php" class="form-login"></form>
-                <input type="text" autocomplete="off" maxlength="12" placeholder="아이디를 입력해주세요" />
+                <input type="password" autocomplete="off" maxlength="16" placeholder="비밀번호를 입력해주세요" />
             </div>
-        </div>
 
+            <div class="autologin">
+                <div class="input-comm">
+                    <input type="checkbox" name="autologin" id="autologin" />
+                    <label for="autologin">자동로그인</label>
+                </div>
 
-
-        <div class="member-pw">
-            <input type="password" autocomplete="off" maxlength="16" placeholder="비밀번호를 입력해주세요" />
-        </div>
-
-        <div class="autologin">
-            <input type="checkbox" name="autologin" id="autologin" />
-            <label for="autologin">자동로그인</label>
-            <input type="checkbox" name="saveid" id="saveid" /><label for="saveid">아이디저장</label>
+                <div class="input-comm">
+                    <input type="checkbox" name="saveid" id="saveid" /><label for="saveid">아이디저장</label>
+                </div>
             </div>
 
             <div class="btn-area">
@@ -44,21 +46,24 @@
                 </button>
             </div>
 
-
             <div class="find-area">
-                <ul class="fine-list">
+                <ul class="find-list">
                     <li><a href="#">아이디 찾기</a></li>
                     <li><a href="#">비밀번호 찾기</a></li>
                     <li><a href="#">회원가입</a></li>
                 </ul>
             </div>
 
-
             <div class="sns-easy">
-                <h2 class="easy-tit"></h2>
-                <button type="button" class="kakao" id="카카오톡 간편 가입"></button>
-                <button type="button" class="naver" id="네이버 간편 가입"></button>
-                <button type="button" class="apple" id="애플 간편 가입"></button>
+                <div class="tit2">
+                    <span class="tit3">SNS 간편 로그인</span>
+
+                    <div class="easy-btn">
+                        <button type="button" class="kakao" id="카카오톡 간편 가입"></button>
+                        <button type="button" class="naver" id="네이버 간편 가입"></button>
+                        <button type="button" class="apple" id="애플 간편 가입"></button>
+                    </div>
+                </div>
             </div>
 
             <div class="biz-area">
@@ -67,7 +72,6 @@
                 '이신가요?'
                 <a href="#" class="link">BIZ 로그인</a>
             </div>
-
         </div>
     </body>
 </html>
